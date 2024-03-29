@@ -46,6 +46,16 @@ h3 {
   gap: 10px;
   animation: appear 2.5s ease forwards;
 }
+.mini-flexo {
+  display: flex;
+  flex-direction: row;
+  animation: appear 2.5s ease forwards;
+}
+
+.mini-flexo > input {
+  width: 50%;
+}
+
 label {
   font-size: 18px;
   color: #dcfeff;
@@ -187,7 +197,22 @@ button:hover {
   #output {
     font-size: 15px;
   }
-  .baka, .smol {
+  .smol {
     display: none;
+  }
+  .baka .ball {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(50%);
+    width: 50%;
+    height: 30%;
+    rotate: 180deg;
+  }
+  .mini-flexo {
+    flex-direction: column;
+  }
+  .mini-flexo > input {
+    width: 80%;
   }
 }
