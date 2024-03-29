@@ -183,6 +183,15 @@ button:hover {
   }
 }
 
+@keyframes up-and-down {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top:-50px;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     width: 60%;
