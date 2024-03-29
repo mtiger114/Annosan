@@ -1,13 +1,13 @@
-# KONAFA
+# Annosan
 
 ## Overview
 
-Konafa is a simple web application that lets users discover their "كنافة" flavor based on their birth date and month. It combines fun and humor with a cultural twist, offering users an entertaining way to explore different flavors.
+Annosan is a simple web application that lets users discover their "كنافة" power based on their birth date and month. It combines fun and humor with a cultural twist, offering users an entertaining way to explore different powers.
 
 ## Features
 
-- Users can input their birth date and month to find out their "Konafa" flavor.
-- The application provides a list of humorous and playful "Konafa" flavors and ingredients.
+- Users can input their birth date and month to find out their "Annosan" power.
+- The application provides a list of humorous and playful "Annosan" powers and ingredients.
 - Responsive design ensures compatibility with various screen sizes, from desktop to mobile devices.
 
 ## Getting Started
