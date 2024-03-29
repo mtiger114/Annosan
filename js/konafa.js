@@ -47,11 +47,14 @@ function findColorAndVegetable() {
     "قناص",
   ];
 
-  const input = document.getElementById("birthday").value;
-  const birthday = input.split("/");
-  const day = parseInt(birthday[0]);
-  const month = parseInt(birthday[1]);
+  const dayInput = document.getElementById("day").value;
+  const monthInput = document.getElementById("month").value;
 
+  // Convert input values to integers
+  const day = parseInt(dayInput);
+  const month = parseInt(monthInput);
+
+  // Validate day and month inputs
   if (
     isNaN(day) ||
     isNaN(month) ||
@@ -83,4 +86,3 @@ function showResult(message) {
   output.classList.add("show");
   output.classList.remove("fade-in");
 }
-
