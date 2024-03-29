@@ -102,11 +102,12 @@ button:hover {
   rotate: 180deg;
 }
 
-.imgeye {
+.naru {
   position: absolute;
-  top: 10%;
+  top: 20%;
   right: 100%;
-  width: 100px;
+  width: 150px;
+  rotate: -30deg;
 }
 .imghat {
   position: absolute;
