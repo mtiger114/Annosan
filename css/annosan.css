@@ -115,29 +115,36 @@ button:hover {
   rotate: 180deg;
 }
 
+.smol {
+  animation: u-and-d 3s linear infinite;
+}
+.smoll {
+  animation: d-and-u 6s linear infinite;
+}
+
 .naru {
   position: absolute;
-  top: 20%;
+  /* top: 20%; */
   right: 100%;
   width: 160px;
   rotate: -30deg;
 }
 .imghat {
   position: absolute;
-  top: 10%;
+  /* top: 10%; */
   left: 100%;
   width: 140px;
 }
 .imgfru {
   position: absolute;
-  bottom: -15%;
+  /* bottom: -15%; */
   left: 100%;
   width: 100px;
   rotate: 30deg;
 }
 .imgmask {
   position: absolute;
-  bottom: -5%;
+  /* bottom: -5%; */
   right: 100%;
   width: 110px;
   rotate: -30deg;
@@ -183,12 +190,20 @@ button:hover {
   }
 }
 
-@keyframes up-and-down {
+@keyframes u-and-d {
   0%, 100% {
-    top: 0;
+    top: 5%;
   }
   50% {
-    top:-50px;
+    top: 0%;
+  }
+}
+@keyframes d-and-u {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom:-10%;
   }
 }
 
