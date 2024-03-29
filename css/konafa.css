@@ -116,20 +116,29 @@ button:hover {
 }
 .imgfru {
   position: absolute;
-  bottom: -25%;
+  bottom: -15%;
   left: 100%;
   width: 100px;
   rotate: 30deg;
 }
 .imgmask {
   position: absolute;
-  bottom: -25%;
+  bottom: -5%;
   right: 100%;
   width: 110px;
   rotate: -30deg;
 }
 
 @keyframes show {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 40%;
+  }
+}
+
+@keyframes dance {
   from {
     top: 0%;
   }
