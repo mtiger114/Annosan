@@ -3,14 +3,14 @@ body {
   font-family: "Lemonada", sans-serif;
   text-align: center;
   /* background-position-y: 1000px; */
-  background-image: url("../imgs/wallb.jpg");
+  background-image: url("../imgs/onp.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 .lay {
-  background-color: #74fd43;
+  background-color: #43affd;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -29,7 +29,7 @@ body {
 }
 h2 {
   margin-top: 50px;
-  color: #ffff79;
+  color: #dcfeff;
   text-transform: uppercase;
   animation: textSpaceAnimation 2.5s ease forwards;
 }
@@ -44,7 +44,7 @@ h3 {
 }
 label {
   font-size: 18px;
-  color: #ffff79;
+  color: #dcfeff;
   display: block;
   margin-top: 20px;
 }
@@ -54,7 +54,7 @@ input[type="text"] {
   font-size: 14px;
   padding: 12px;
   margin: 10px;
-  border: 2px solid #da9c32;
+  border: 2px solid #dcfeff;
   border-radius: 5px;
   transition: border-color 0.3s ease;
   text-align: center;
@@ -62,12 +62,12 @@ input[type="text"] {
 }
 input[type="text"]:focus {
   outline: none;
-  border-color: #ffff79;
+  border-color: #dcfeff;
 }
 button {
   font-family: "Lemonada", sans-serif;
   padding: 15px 30px;
-  background-color: #ffa200;
+  background-color: #015b9b;
   color: #fff;
   font-weight: bold;
   border: none;
@@ -77,7 +77,7 @@ button {
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #ffb330;
+  background-color: #004577;
 }
 #output {
   font-size: 20px;
@@ -106,7 +106,7 @@ button:hover {
   position: absolute;
   top: 20%;
   right: 100%;
-  width: 150px;
+  width: 160px;
   rotate: -30deg;
 }
 .imghat {
