@@ -139,11 +139,14 @@ button:hover {
 }
 
 @keyframes dance {
-  from {
+  0% {
     top: 0%;
   }
-  to {
+  50% {
     top: 40%;
+  }
+  100% {
+    top: 0%;
   }
 }
 
