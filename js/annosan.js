@@ -63,7 +63,7 @@ function findColorAndVegetable() {
     month < 1 ||
     month > 12
   ) {
-    showError("اكتبها صح (يوم / شهر)");
+    showError("اكتبها صح (شهر و يوم)");
   } else {
     const color = colors[day - 1];
     const vegetable = vegetables[month - 1];
