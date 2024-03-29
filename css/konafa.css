@@ -35,7 +35,7 @@ h2 {
   margin-top: 50px;
   color: #dcfeff;
   text-transform: uppercase;
-  animation: textSpaceAnimation 2.5s ease forwards;
+  animation: textSpaceAnimation 1.5s ease forwards;
 }
 h3 {
   color: #fff;
@@ -44,12 +44,11 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  animation: appear 2.5s ease forwards;
 }
 .mini-flexo {
   display: flex;
   flex-direction: row;
-  animation: appear 2.5s ease forwards;
+  animation: appear 3.5s ease forwards;
 }
 
 .mini-flexo > input {
