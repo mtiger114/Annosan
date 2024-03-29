@@ -1,3 +1,7 @@
+* img {
+  pointer-events: none;
+}
+
 body {
   direction: rtl;
   font-family: "Lemonada", sans-serif;
