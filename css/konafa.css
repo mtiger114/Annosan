@@ -114,17 +114,19 @@ button:hover {
   left: 100%;
   width: 140px;
 }
-.imgmask {
+.imgfru {
   position: absolute;
   bottom: -25%;
   left: 100%;
   width: 100px;
+  rotate: 30deg;
 }
-.imgfru {
+.imgmask {
   position: absolute;
-  top: 10%;
-  left: 100%;
-  width: 140px;
+  bottom: -25%;
+  right: 100%;
+  width: 110px;
+  rotate: -30deg;
 }
 
 @keyframes show {
